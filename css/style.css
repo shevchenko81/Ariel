@@ -524,7 +524,7 @@ input {
 #bcontact p.ccon {
     font: 18px Arial, sans-serif;
     color: #2C789C;
-    margin-top: 28px;
+    margin-top: 5px;
     margin-left: 60px;
     float: left;
     
@@ -534,7 +534,7 @@ input {
     margin-left: 170px;
     font: 16px Arial, sans-serif;
     color: #2C789C;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 #bcontact p.ariel {
