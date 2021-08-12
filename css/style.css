@@ -1,0 +1,545 @@
+@import url(reset.css);
+
+body {
+    background-image: url(../images/fon.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    width: 990px;
+    height: 0px;   
+    margin: 0 auto;
+    outline: 1px solid #cccccc;
+}
+
+/* ������ ����� header */
+
+#header {
+    height: 459px;
+    outline: 0px solid #cccccc;
+    background-image: url(../images/header.jpg);
+    background-repeat: repeat-x;
+    position: relative;
+    z-index: 3;
+}
+h1{
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #3f5f74;
+}
+
+#socseti {
+    width: 180px;
+    height: 28px;
+    outline: 0px solid #000000;
+    position: absolute;
+    right: 40px;
+    top: 9px;
+}
+
+#socseti li {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+#s1 {
+    background-image: url(../images/ico1.png); 
+}
+
+#s2 {
+    background-image: url(../images/ico2.png); 
+}
+
+#s3 {
+    background-image: url(../images/ico3.png); 
+}
+
+#s4 {
+    background-image: url(../images/ico4.png); 
+}
+
+#s5 {
+    background-image: url(../images/ico5.png); 
+}
+
+#s6 {
+    background-image: url(../images/ico6.png); 
+}
+
+#socseti li a {
+    height: 24px;
+    display: block;
+    cursor: pointer;
+}
+
+.clear{
+    clear: both;
+}
+
+#logo {
+    width: 265px;
+    height: 99px;
+    outline: 0px solid #cc0000;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 56px;
+    top: 51px;
+}
+
+#logo a {
+    display: block;
+    height: 99px;
+    cursor: pointer;
+}
+
+#pyl {
+    width: 367px;
+    height: 420px;
+    outline: 0px solid #cc0000;
+    background-image: url(../images/pyl.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 30px;
+    top: 38px;
+}
+
+#tel {
+    width: 310px;
+    height: 75px;
+    outline: 0px solid #cc0000;
+    background-image: url(../images/tell.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 375px;
+    top: 51px;
+}
+
+#tel h1 {
+    font: bold 24px Arial, sans-serif;
+    color: #2D22FF;
+    padding: 5px;
+}
+
+#nom {
+    width: 175px;
+    height: 55px;
+    outline: 1px solid #000000;
+    font: bold 22px Arial, sans-serif;
+    color: #2D22FF;
+    position:absolute;
+    right:8px;
+    top: 7px; 
+}
+
+#infa {
+    width: 400px;
+    height: 70px;
+    outline: 0px solid #000000;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 70px;
+}
+
+#infa h2 {
+    font: 24px Arial, sans-serif;
+    color: #14719C;
+}
+
+#nav {
+    width: 500px;
+    height: 39px;
+    outline: 0px solid #000000;
+    position: absolute;
+    top: 250px;
+    left: 55px;
+}
+
+#nav li {
+    float: left;
+    outline: 0px solid #cc0000;
+    margin-right: 30px;
+}
+
+#nav li a {
+    display:block;
+    font-size:18px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#fff;
+    line-height:33px;
+    padding:0 15px;
+    margin:0 1px 1px 0
+}
+
+#nav li a:hover {
+    color:#3a5b70;
+    border-radius:12px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    background:url(../images/menu.gif) top repeat-x;
+    border-bottom:1px solid #3f5f74;
+    border-right:1px solid #3f5f74;
+    margin:0
+}
+
+/* ����� ����� header*/
+
+/* ������ ����� content*/
+
+#content {
+    height: 572px;
+    outline: 0px solid #cc0000;
+    background-color: #f3f3f3;
+    position: relative;
+    z-index: 4;
+    padding-left: 68px;
+}
+
+#welcome {
+    width: 540px;
+    height: 632px;
+    outline: 0px solid #cccccc;
+    float: left;
+    margin-top: -60px;
+    text-align: justify;
+}
+
+#hay {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    font: 30px Arial, sans-serif;
+    color: #2C789C;
+    margin-left: 68px;
+    margin-top: 10px;
+    outline: 0px solid #27B588;
+} 
+
+#foto {
+    width: 250px;
+    height: 207px;
+    background-image: url(../images/foto.jpg);
+    outline: 0px solid #000000;
+    margin-right: 20px;
+    margin-top: 60px;
+    float: left;
+}
+
+#welcome p {
+    margin-right: 15px;
+    margin-top: 83px;
+    font: 15px Arial, sans-serif;
+    color: #2C789C;
+    line-height: 1.3
+}
+
+#Line {
+    width: 2px;
+    height: 480px;
+    outline: 0px solid #cccccc;
+    background-image: url(../images/line1.gif);
+    background-repeat: repeat-y;
+    margin-left: 548px;
+    margin-top: 40px;
+    position: absolute;
+    float: left;
+}
+
+#work {
+    width: 368px;
+    height: 602px;
+    outline: 0px solid #11850F;
+    margin-top: -30px;
+    float: left;
+    margin-left: 8px;
+}
+
+#work h2 {
+    width: 210px;
+    height: 35px;
+    outline: 0px solid #cccccc;
+    font: 30px Arial, sans-serif;
+    color:#2C789C ;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+#fotos {
+    outline: 0px solid #cccccc;
+    width: 340px;
+    height: 87px;
+    margin-left: 25px;
+    position: absolute;
+    margin-top: 13px;
+    
+}
+
+#foto1 {
+    width: 88px;
+    height: 87px;
+    float: left;
+    margin-right: 25px;
+    background-image: url(../images/foto1.jpg);
+    background-repeat: no-repeat;
+}
+
+#foto2 {
+    width: 88px;
+    height: 87px;
+    float: left;
+    margin-right: 25px;
+    background-image: url(../images/foto2.jpg);
+    background-repeat: no-repeat;
+}
+
+#foto3 {
+    width: 88px;
+    height: 87px;
+    float: left;
+    background-image: url(../images/foto3.jpg);
+    background-repeat: no-repeat;
+}
+
+#work ul {
+    list-style-type: disc;
+    font: 15px Arial, sans-serif;
+    color: #2C789C;
+    margin-top: 115px;
+    padding-left: 38px;
+    line-height: 1.5
+}
+
+#footer {
+    height: 99px;
+    background-image: url(../images/futer.jpg);
+    background-repeat: repeat-x;
+}
+
+#footer p a {
+    margin-left: 443px;
+    margin-top: 40px;
+    position: absolute;
+    text-decoration: none;
+    font: Arial, sans-serif;
+    color:#5D5D5D;
+}
+
+#footer p a:hover {
+    color: #2C789C;
+}
+
+
+#uslugi {
+    width: 654px;
+    height: 594px;
+    float: left;
+    outline: 0px solid #cc0000;
+    margin-top: -30px;
+}
+
+#zagolovok {
+    width: 500px;
+    height: 50px;
+    outline: 0px solid #cccccc;
+    position: absolute;
+    padding-left: 100px;
+    font: 30px Arial, sans-serif;
+    color: #2C789C;
+}
+
+#tablica {
+    width: 654px;
+    height: 526px;
+    outline: 0px solid #11850F;
+    background-image: url(../images/tabl.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+#cena{
+    width: 200px;
+    height: 544px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    outline: 0px solid #cc0000;
+}
+
+#foto4 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    outline: 0px solid #000000;
+    background-image: url(../images/foto4.jpg);
+    background-repeat: no-repeat;
+}
+
+#cena p.dop {
+    font: 15px Arial, sans-serif;
+    padding-left: 25px;
+    color: #035A90;
+    text-indent: 25px
+}
+
+#cena ul {
+    list-style-type: disc;
+    font: 15px Arial, sans-serif;
+    color: #035A90;
+    margin-top: 20px;
+    padding-left: 38px;
+    line-height: 1.5
+}
+
+#cena p {
+    font: 15px Arial, sans-serif;
+    padding-left: 25px;
+    color: #035A90;
+    margin-top: 20px;
+    text-indent: 14px
+}
+
+
+
+#contact {
+    height: 400px;
+    background-color: #f3f3f3;
+    position: relative;
+    z-index: 4;
+    outline: 0px solid #000000;
+}
+
+#contact h2 {
+    width: 450px;
+    height: 80px;
+    outline: 0px solid #FF7721;
+    font: 26px Arial, sans-serif;
+    color: #2C789C;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+#bForm {
+	width: 480px;
+    height: 330px;
+    outline: 0px solid #0E821F;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 55px;
+    float: left;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+	border: solid 1px #CCCCCC;
+	padding-left: 10px;
+    margin-bottom: 10px;
+	font: 14px Arial, sans-serif;
+    color: #5D5D5D;
+	background: #F9F9F9;
+	-webkit-birder-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.name input {
+    margin-left: 23px;
+}
+
+.email input {
+    margin-left: 10px;
+}
+
+#bForm label {
+    font:bold 15px Arial, sans-serif;
+    color: #2C789C;
+}
+
+#text {
+    width: 330px;
+    height: 196px;
+    border: solid 1px #CCCCCC;
+    margin-top: -22px;
+    margin-bottom: 10px;
+    margin-left: 127px;
+    padding-left: 5px;
+    padding-top: 4px;
+    color: #5D5D5D;
+    font: 14px Arial, sans-serif;
+	background: #F9F9F9;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.msg {
+    margin-top: 5px;
+}
+
+.send {
+    width: 99px;
+    height: 26px;
+    border: none;
+    margin-left: 350px;
+}
+
+#delBg {
+    width: 2px;
+    height: 300px;
+    outline: 0px solid #cccccc;
+    background-image: url(../images/line1.gif);
+    background-repeat: repeat-y;
+    margin-left: 565px;
+    margin-top: 45px;
+    position: absolute;
+    float: left;
+}
+
+#bcontact {
+    width: 340px;
+    height: 380px;
+    outline: 0px solid #2D2FCA;
+    margin-left: 600px;
+    float: left;
+}
+
+#foto5 {
+    width: 340px;
+    height: 255px;
+    background-image: url(../images/foto5.jpg);
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+#bcontact p.ccon {
+    font: 18px Arial, sans-serif;
+    color: #2C789C;
+    margin-top: 28px;
+    margin-left: 60px;
+    float: left;
+    
+}
+
+#bcontact p {
+    margin-left: 170px;
+    font: 16px Arial, sans-serif;
+    color: #2C789C;
+    margin-top: 30px;
+}
+
+#bcontact p.ariel {
+    margin-left: 130px;
+    margin-top: 20px;
+    font: 12px Arial, sans-serif;
+    color: #5D5D5D;
+}
